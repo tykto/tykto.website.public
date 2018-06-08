@@ -339,10 +339,13 @@ ul {
   min-height: 100%;
   position: relative;
   width: 100%;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  background-size: contain;
+}
+
+@media (min-width: 769px) {
+	#tyk-collaborate {
+		background-size: cover;
+	}
 }
 
 #tyk-collaborate .card {
