@@ -162,7 +162,7 @@ ul {
 /* main sections */
 #tyk-home {
 	padding: 8rem 0 0;
-	height: 100%;
+	min-height: 100%;
   background: url(../images/wall.jpg) no-repeat center center fixed;
   position: relative;
   width: 100%;
@@ -172,9 +172,9 @@ ul {
   background-size: cover;
 }
 
-#tyk-home img {
+#tyk-home .tyk-hook {
 	position: relative;
-	top: 3%;
+	top: 1.5rem;
 }
 
 #tyk-home .tyk-sign {
