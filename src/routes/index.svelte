@@ -6,4 +6,4 @@
 
 <svelte:head />
 
-Coming soon...
+Coming soon!
