@@ -1,9 +1,15 @@
 <script type="ts">
+  import HomePage from '@app/pages/Home';
 </script>
 
-<style>
-</style>
+<svelte:head>
+  <meta name="description" content="Custom, affordable web design and development." />
+  <meta name="author" content="Tykto" />
+  <meta
+    name="keywords"
+    content="web design, web development, software development, Boronia web design, Melbourne web design, custom, affordable, responsive web design, business solutions, business systems, interactive kiosk" />
+  <meta name="robots" content="index, follow" />
+  <title>Tykto Web Design and Development</title>
+</svelte:head>
 
-<svelte:head />
-
-Coming soon!
+<HomePage />
