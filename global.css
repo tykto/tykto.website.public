@@ -1,0 +1,137 @@
+#sapper {
+  height: 100%;
+}
+
+@font-face {
+  font-family: 'anthology_sans';
+  src: url('../fonts/anthology-sans-webfont.woff2') format('woff2'), url('../fonts/anthology-sans-webfont.woff') format('woff'),
+    url('../fonts/anthology-sans.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'anthology_outline';
+  src: url('../fonts/anthology-outline-webfont.woff2') format('woff2'), url('../fonts/anthology-outline-webfont.woff') format('woff'),
+    url('../fonts/anthology-outline.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 500;
+}
+
+h1,
+h2 {
+  font-family: 'anthology_sans';
+}
+
+.t-h-80 {
+  height: 80%;
+}
+
+.t-lh-tight {
+  line-height: 1.2;
+}
+
+.t-text-sans {
+  font-family: 'anthology_sans';
+}
+
+.t-text-outline {
+  font-family: 'anthology_outline';
+}
+
+.t-text-charcoal {
+  color: #1f1f11;
+}
+
+.t-text-purple {
+  color: #742c40;
+}
+
+.t-text-vanilla {
+  color: #a99a80;
+}
+
+.t-bg-charcoal {
+  background-color: #1f1f1f;
+}
+
+.t-bg-vanilla {
+  background-color: #a99a80;
+}
+
+.t-bg-vanilla-light {
+  background-color: #fbf6df;
+}
+
+.t-border-charcoal {
+  border-color: #1f1f1f;
+}
+
+@media (min-width: 768px) {
+  .t-text-7xl {
+    font-size: 5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .t-text-8xl {
+    font-size: 6rem;
+  }
+}
+
+@media (min-width: 1920px) {
+  .t-2xl\:mt-8 {
+    margin-top: 2rem;
+  }
+
+  .t-2xl\:flex-row {
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 2560px) {
+  .t-text-3xl {
+    font-size: 1.875rem;
+  }
+
+  .t-text-4xl {
+    font-size: 2.25rem;
+  }
+
+  .t-text-5xl {
+    font-size: 3rem;
+  }
+
+  .t-text-6xl {
+    font-size: 4rem;
+  }
+
+  .t-text-10xl {
+    font-size: 8rem;
+  }
+
+  .t-w-22 {
+    width: 22rem;
+  }
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) and (min-resolution: 0.001dpcm) {
+  .t-justify-evenly {
+    justify-content: space-evenly;
+  }
+}
+
+@supports (-ms-ime-align: auto) {
+  .t-justify-evenly {
+    justify-content: space-around;
+  }
+}
