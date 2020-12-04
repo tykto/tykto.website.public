@@ -26,11 +26,11 @@
         <li class=""><i class="fas fa-phone mr-1 lg:mr-3 xl:mr-1" />0425807060</li>
         <li class=""><a class="" href="/"><i class="fas fa-paper-plane mr-1 lg:mr-3 xl:mr-1" />info@tykto.com</a></li>
       </ul>
-      <ul class="flex justify-center t-text-vanilla text-2xl sm:text-3xl lg:text-4xl t-text-5xl space-x-10">
+      <!-- <ul class="flex justify-center t-text-vanilla text-2xl sm:text-3xl lg:text-4xl t-text-5xl space-x-10">
         <li><a class="" href="/"><i class="fab fa-facebook-square" /></a></li>
         <li><a class="" href="/"><i class="fab fa-linkedin" /></a></li>
         <li><a class="" href="/"><i class="fab fa-instagram-square" /></a></li>
-      </ul>
+      </ul> -->
     </div>
   </div>
   <p class="w-full text-right t-bg-charcoal t-text-vanilla px-5">&copy; Tykto 2020</p>

@@ -64,10 +64,6 @@ h2 {
   background-color: #1f1f1f;
 }
 
-.t-bg-purple {
-  background-color: #742c40;
-}
-
 .t-bg-vanilla {
   background-color: #a99a80;
 }
@@ -78,35 +74,6 @@ h2 {
 
 .t-border-charcoal {
   border-color: #1f1f1f;
-}
-
-.t-arrow {
-  width: 0;
-  height: 0;
-  border-left: 0px solid transparent;
-  border-right: 14rem solid transparent;
-  border-top: 8rem solid #1f1f1f;
-}
-
-@media (min-width: 2560px) {
-  .t-w-22 {
-    width: 22rem;
-  }
-}
-
-@media (min-width: 1920px) {
-  .t-2xl\:mt-8 {
-    margin-top: 2rem;
-  }
-  .t-2xl\:flex-row {
-    flex-direction: row;
-  }
-}
-
-@media (min-width: 2560px) {
-  .t-justify-center {
-    justify-content: center;
-  }
 }
 
 @media (min-width: 768px) {
@@ -121,85 +88,39 @@ h2 {
   }
 }
 
+@media (min-width: 1920px) {
+  .t-2xl\:mt-8 {
+    margin-top: 2rem;
+  }
+
+  .t-2xl\:flex-row {
+    flex-direction: row;
+  }
+}
+
 @media (min-width: 2560px) {
-  .t-text-10xl {
-    font-size: 8rem;
-  }
-
-  .t-text-6xl {
-    font-size: 4rem;
-  }
-
-  .t-text-5xl {
-    font-size: 3rem;
+  .t-text-3xl {
+    font-size: 1.875rem;
   }
 
   .t-text-4xl {
     font-size: 2.25rem;
   }
 
-  .t-text-3xl {
-    font-size: 1.875rem;
+  .t-text-5xl {
+    font-size: 3rem;
   }
-}
 
-@media (min-width: 768px) {
-  .t-arrow {
-    width: 0;
-    height: 0;
-    border-left: 0px solid transparent;
-    border-right: 26rem solid transparent;
-    border-top: 14rem solid #1f1f1f;
+  .t-text-6xl {
+    font-size: 4rem;
   }
-}
 
-@media (min-width: 1024px) {
-  .t-arrow {
-    width: 0;
-    height: 0;
-    border-left: 0px solid transparent;
-    border-right: 32rem solid transparent;
-    border-top: 14rem solid #1f1f1f;
+  .t-text-10xl {
+    font-size: 8rem;
   }
-}
 
-@media (min-width: 1280px) {
-  .t-arrow {
-    width: 0;
-    height: 0;
-    border-left: 0px solid transparent;
-    border-right: 24rem solid transparent;
-    border-top: 15rem solid #1f1f1f;
-  }
-}
-
-@media (min-width: 1440px) {
-  .t-arrow {
-    width: 0;
-    height: 0;
-    border-left: 0px solid transparent;
-    border-right: 26rem solid transparent;
-    border-top: 16rem solid #1f1f1f;
-  }
-}
-
-@media (min-width: 1920px) {
-  .t-arrow {
-    width: 0;
-    height: 0;
-    border-left: 0px solid transparent;
-    border-right: 32rem solid transparent;
-    border-top: 18rem solid #1f1f1f;
-  }
-}
-
-@media (min-width: 2560px) {
-  .t-arrow {
-    width: 0;
-    height: 0;
-    border-left: 0px solid transparent;
-    border-right: 43rem solid transparent;
-    border-top: 24rem solid #1f1f1f;
+  .t-w-22 {
+    width: 22rem;
   }
 }
 

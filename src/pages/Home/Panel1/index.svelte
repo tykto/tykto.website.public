@@ -2,6 +2,76 @@
   import logoUrl from './logo.png';
 </script>
 
+<style>
+  .t-arrow {
+    width: 0;
+    height: 0;
+    border-left: 0px solid transparent;
+    border-right: 14rem solid transparent;
+    border-top: 8rem solid #1f1f1f;
+  }
+
+  @media (min-width: 768px) {
+    .t-arrow {
+      width: 0;
+      height: 0;
+      border-left: 0px solid transparent;
+      border-right: 26rem solid transparent;
+      border-top: 14rem solid #1f1f1f;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .t-arrow {
+      width: 0;
+      height: 0;
+      border-left: 0px solid transparent;
+      border-right: 32rem solid transparent;
+      border-top: 14rem solid #1f1f1f;
+    }
+  }
+
+  @media (min-width: 1280px) {
+    .t-arrow {
+      width: 0;
+      height: 0;
+      border-left: 0px solid transparent;
+      border-right: 24rem solid transparent;
+      border-top: 15rem solid #1f1f1f;
+    }
+  }
+
+  @media (min-width: 1440px) {
+    .t-arrow {
+      width: 0;
+      height: 0;
+      border-left: 0px solid transparent;
+      border-right: 26rem solid transparent;
+      border-top: 16rem solid #1f1f1f;
+    }
+  }
+
+  @media (min-width: 1920px) {
+    .t-arrow {
+      width: 0;
+      height: 0;
+      border-left: 0px solid transparent;
+      border-right: 32rem solid transparent;
+      border-top: 18rem solid #1f1f1f;
+    }
+  }
+
+  @media (min-width: 2560px) {
+    .t-arrow {
+      width: 0;
+      height: 0;
+      border-left: 0px solid transparent;
+      border-right: 43rem solid transparent;
+      border-top: 24rem solid #1f1f1f;
+    }
+  }
+</style>
+
 <div class="flex h-screen xl:h-full t-bg-vanilla-light border-b-2 xl:border-b-0 border-r-0 xl:border-r-2 t-border-charcoal">
   <div>
     <div class="t-arrow absolute" />
