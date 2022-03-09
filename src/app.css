@@ -1,0 +1,26 @@
+/* Write your global styles here, in PostCSS syntax */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: 'Anthology Sans';
+    /* prettier-ignore */
+    src: url('/fonts/anthology-sans-webfont.woff2') format('woff2'), 
+         url('/fonts/anthology-sans-webfont.woff') format('woff'),
+         url('/fonts/anthology-sans.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Anthology Outline';
+    /* prettier-ignore */
+    src: url('/fonts/anthology-outline-webfont.woff2') format('woff2'), url('../fonts/anthology-outline-webfont.woff') format('woff'),
+         url('/fonts/anthology-outline.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+}
+
+
