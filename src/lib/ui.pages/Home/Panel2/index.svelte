@@ -33,5 +33,5 @@
       </ul> -->
     </div>
   </div>
-  <p class="w-full text-sm text-right bg-charcoal text-caramel p-3">&copy; Tykto 2020</p>
+  <p class="w-full text-sm text-right bg-charcoal text-caramel p-3">&copy; Tykto 2022</p>
 </div>
